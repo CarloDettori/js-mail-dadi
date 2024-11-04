@@ -87,10 +87,35 @@ console.log(cubes);
 /* 
 snak 7
 Stampa le potenze di 2 fino a 1000.
-*/
+
 
 for (let i = 1; i <= 1000; i++) {
     console.log(i**2)
 }
+*/
+
+/*
+snak 8
+Chiedi un numero di 4 cifre all’utente
+e calcola la somma di tutte le cifre che compongono il numero.
+*/
+let num = prompt("scrivi un numero di 4 cifre");
+somma = null;
+
+If (num.length != 4 || typeof num != Number) {
+    console.log("numero non valido, ricarica la pagina per reinserire il numero")
+} else {
+    for (let i = 0; i == 4; i++) {
+        num.indexOf(i) + somma
+    }
+}
+console.log(num);
+console.log(somma);
+
+
+/*
+l'esercizio 6 e l'esercizio 8 necessitano correzione
+*/
+
 
 
