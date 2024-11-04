@@ -73,7 +73,7 @@ while (sixNumers.length < 6) {
 /*
 Stampa il cubo dei primi N numeri,
 dove N è un numero indicato dall’utente.
-*/
+
 let cubes = [];
 let n = prompt("scrivi un numero maggiore di zero qualsiasi")
 
@@ -82,3 +82,15 @@ for (let i = n; i =! 0; i--) {
 }
 
 console.log(cubes);
+*/
+
+/* 
+snak 7
+Stampa le potenze di 2 fino a 1000.
+*/
+
+for (let i = 1; i <= 1000; i++) {
+    console.log(i**2)
+}
+
+
