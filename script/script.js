@@ -71,6 +71,7 @@ while (sixNumers.length < 6) {
 */
 
 /*
+snak 6
 Stampa il cubo dei primi N numeri,
 dove N è un numero indicato dall’utente.
 
@@ -100,13 +101,13 @@ Chiedi un numero di 4 cifre all’utente
 e calcola la somma di tutte le cifre che compongono il numero.
 */
 let num = prompt("scrivi un numero di 4 cifre");
-somma = null;
+let somma = 0;
 
-If (num.length != 4 || typeof num != Number) {
-    console.log("numero non valido, ricarica la pagina per reinserire il numero")
+if (num.length != 4) {
+    console.log("numero non valido, ricarica la pagina per reinserire il numero");
 } else {
-    for (let i = 0; i == 4; i++) {
-        num.indexOf(i) + somma
+    for (let i = 0; i < num.length; i++) {
+        somma = somma + num[i]; 
     }
 }
 console.log(num);
